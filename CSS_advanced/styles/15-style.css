@@ -26,7 +26,8 @@
 	--section-title-color: var(--color-black);
 }
 
-* {
+/* Declaration of the universal box sizing*/
+*, *:before, *:after {
 	box-sizing: border-box;
 }
 
