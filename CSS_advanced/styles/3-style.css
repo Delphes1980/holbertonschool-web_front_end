@@ -1,5 +1,16 @@
+/* The behaviour of the scroll is fluid */
+
 html {
     scroll-behavior: smooth;
+}
+
+:root {
+	--color-primary: #d73953;
+	--color-black: #090909;
+	--color-white: #ffffff;
+	--color-light-gray: #f3f3f3;
+	--color-dark-gray: #353535;
+	--text-color: var (--color-black);
 }
 
 body, a {
@@ -12,13 +23,4 @@ body, a {
 
 .card-category, .section-tagline {
     color: var (--color-primary);
-}
-
-:root {
-	--color-primary: #d73953;
-	--color-black: #090909;
-	--color-white: #ffffff;
-	--color-light-gray: #f3f3f3;
-	--color-dark-gray: #353535;
-	--text-color: var (--color-black);
 }
