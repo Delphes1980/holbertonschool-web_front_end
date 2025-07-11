@@ -11,7 +11,7 @@ a {
 }
 
 .visually-hidden {
-	background-color: None;
+	display: None;
 }
 
 .card-category {
