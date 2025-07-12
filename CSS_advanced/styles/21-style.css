@@ -197,3 +197,8 @@ ul.row {
 	display: table;
 	clear: both; /* don't allow any floating elements on either side*/
 }
+
+[class ^="col-"] {
+	float: left;
+	padding: 0.5rem;
+}
