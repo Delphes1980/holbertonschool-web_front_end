@@ -219,10 +219,11 @@ ul.row {
 }
 
 .card-services .card-title {
-	margin: none;
+	margin: 0;
 }
 
-.card-services .a {
+/* All the 'a' elements in 'card-services' class*/
+.card-services a {
 	display: block;
 	padding: 2rem;
 	background-color: var(--color-light-grey);
