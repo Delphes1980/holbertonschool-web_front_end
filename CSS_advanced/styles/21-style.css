@@ -169,11 +169,11 @@ ul.row {
 }
 
 .col-1-3 {
-	width: 33.33%;
+    width: 33.33%;
 }
 
 .col-1-2 {
-	width: 50%;
+    width: 50%;
 }
 
 .footer-copyright {
@@ -194,7 +194,7 @@ ul.row {
 	clear: both; /* don't allow any floating elements on either side*/
 }
 
-[class ^="col-"] {
-	float: left;
-	padding: 0.5rem;
+[class^="col-"] {
+    float: left;
+    padding: 0.5rem;
 }
